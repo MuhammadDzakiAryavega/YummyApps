@@ -1,6 +1,5 @@
 package com.dzaki_aryavega.yummyapps
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -23,10 +22,10 @@ class ListOrderActivity : AppCompatActivity() {
                 "$30.00",
                 "2 Items"
             ),
-            ModelListOrder(R.drawable.taco, "Taco de sioso", "10 mei, 06.10 pm", "$10.00", "2 Items"),
-            ModelListOrder(R.drawable.sushi, "Sushi", "06 nov, 02.09 pm", "$25.00", "2 Items"),
-            ModelListOrder(R.drawable.pizza, "Pizza Hut", "07 nov, 07.45 pm", "$30.00", "2 Items"),
-            ModelListOrder(R.drawable.rendang, "Strawberry", "24 june, 07.00 pm", "$40.00", "2 Items")
+            ModelListOrder(R.drawable.taco, "Taco de sioso", "10 mei, 06.10 pm", "$10.00", "1 Items"),
+            ModelListOrder(R.drawable.sushi, "Sushi", "06 nov, 02.09 pm", "$25.00", "1 Items"),
+            ModelListOrder(R.drawable.croissant, "Croissant", "07 nov, 07.45 pm", "$20.00", "1 Items"),
+            ModelListOrder(R.drawable.rendang, "Rendang", "24 june, 07.00 pm", "$40.00", "1 Items")
 
         )
 

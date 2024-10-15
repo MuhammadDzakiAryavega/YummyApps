@@ -47,7 +47,7 @@
             android:id="@+id/txtNama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Chicken Curry"
+            android:text="Pizza Hut"
             android:textAlignment="center"
             android:textSize="24sp"
             android:textStyle="bold"
